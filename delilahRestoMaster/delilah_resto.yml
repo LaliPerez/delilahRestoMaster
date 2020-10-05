@@ -1,0 +1,214 @@
+%YAML 1.1
+---
+# delilah_resto.orders
+-
+  id: 1
+  user_id: 3
+  status_id: 1
+  created_at: "2020-09-29 18:09:52"
+  payment_method_id: 1
+-
+  id: 45
+  user_id: 1
+  status_id: 3
+  created_at: "2020-09-29 18:20:28"
+  payment_method_id: 2
+-
+  id: 46
+  user_id: 2
+  status_id: 1
+  created_at: "2020-09-29 10:36:29"
+  payment_method_id: 1
+# delilah_resto.order_products
+-
+  id: 1
+  order_id: 1
+  product_id: 5
+-
+  id: 2
+  order_id: 45
+  product_id: 2
+-
+  id: 3
+  order_id: 45
+  product_id: 5
+-
+  id: 4
+  order_id: 46
+  product_id: 6
+-
+  id: 5
+  order_id: 46
+  product_id: 3
+# delilah_resto.order_status
+-
+  id: 1
+  name: "New"
+-
+  id: 2
+  name: "Confirmed"
+-
+  id: 3
+  name: "Preparing"
+-
+  id: 4
+  name: "Sending"
+-
+  id: 5
+  name: "Delivered"
+-
+  id: 6
+  name: "Canceled"
+# delilah_resto.payment_methods
+-
+  id: 1
+  name: "Cash"
+-
+  id: 2
+  name: "Credit/Debit card"
+# delilah_resto.products
+-
+  id: 1
+  name: "Pizza Napolitana"
+  price: 400
+  photo: "https://okdiario.com/img/2016/08/15/pizza-napolitana-sin-gluten-655x368.jpg"
+  price_discount: 0
+  active: 1
+-
+  id: 2
+  name: "Hamburguesa Paris"
+  price: 650
+  photo: "https://media-cdn.tripadvisor.com/media/photo-s/14/0f/c8/a6/big-formule-bartholome.jpg"
+  price_discount: 0
+  active: 1
+-
+  id: 3
+  name: "Bucket de pollo frito con ensalada coleslaw"
+  price: 350
+  photo: "https://clubdecocina.com.ar/images/joomlart/article/3f51ec9d49bc461803b454a4875d5aa8.jpg"
+  price_discount: 0
+  active: 1
+-
+  id: 4
+  name: "Parrillada completa"
+  price: 1000
+  photo: "https://th.bing.com/th/id/OIP.M9dK2Fyv3O2G8DoJ9qtDdAHaE1?w=268&h=180&c=7&o=5&pid=1.7"
+  price_discount: 0
+  active: 1
+-
+  id: 5
+  name: "Brusquetta salmon"
+  price: 150
+  photo: "https://th.bing.com/th/id/OIP.koCj1R-1EiYEJ7VaQN351AHaFj?w=239&h=180&c=7&o=5&pid=1.7"
+  price_discount: 0
+  active: 1
+-
+  id: 6
+  name: "Ensalada rusa"
+  price: 250
+  photo: "https://th.bing.com/th/id/OIP.grTkrGhncNKyZX_PGf9_jQHaEK?w=299&h=180&c=7&o=5&pid=1.7"
+  price_discount: 0
+  active: 1
+-
+  id: 7
+  name: "Porcion papas fritas"
+  price: 200
+  photo: "https://th.bing.com/th/id/OIP.HpmCu56wghci8F_6l_aVegHaEK?w=316&h=180&c=7&o=5&pid=1.7"
+  price_discount: 0
+  active: 1
+-
+  id: 8
+  name: "Ravioles de berenjenas rossini"
+  price: 350
+  photo: "https://www.bertuccis.com/wp-content/uploads/Four-Cheese-Ravioli-1024x819.jpg"
+  price_discount: 0
+  active: 1
+-
+  id: 9
+  name: "Filet de merluza con pure"
+  price: 450
+  photo: "https://www.bing.com/th?id=OIP.H20ZJwA2Oude7YE9rLVpDQAAAA&w=189&h=160&c=8&rs=1&qlt=90&pid=3.1&rm=2"
+  price_discount: 0
+  active: 1
+-
+  id: 12
+  name: "Pastel de papas"
+  price: 550
+  photo: "https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7"
+  price_discount: 0
+  active: 1
+-
+  id: 13
+  name: "Pastel de papas"
+  price: 550
+  photo: "https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7"
+  price_discount: 0
+  active: 1
+-
+  id: 14
+  name: "Pastel de papas"
+  price: 550
+  photo: "https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7"
+  price_discount: 0
+  active: 1
+-
+  id: 15
+  name: "Helado"
+  price: 150
+  photo: "https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7"
+  price_discount: 0
+  active: 1
+# delilah_resto.users
+-
+  id: 1
+  username: "LauraMPB"
+  name: "Laura"
+  email: "laurapb@gmail.com"
+  phone: 78453695
+  address: "Av. Pedro Goyena 586"
+  password: 1234
+  role_id: 1
+-
+  id: 2
+  username: "EnriqueM"
+  name: "Enrique Fog"
+  email: "Enri@gmail.com"
+  phone: 85236958
+  address: "Senillosa 265"
+  password: 4444
+  role_id: 2
+-
+  id: 3
+  username: "Kim"
+  name: "Kimonam"
+  email: "ju@gmail.com"
+  phone: 58967452
+  address: "Macacha Guemes 575"
+  password: ""
+  role_id: 2
+-
+  id: 4
+  username: "Emma"
+  name: "Emmita"
+  email: "EEmma@gmail.com"
+  phone: 36987452
+  address: "Olavarria 74"
+  password: 7654
+  role_id: 2
+-
+  id: 12
+  username: "Gloria"
+  name: "Sing"
+  email: "Glo@gmail.com"
+  phone: 9996595
+  address: "Concordia 78"
+  password: 3456
+  role_id: 2
+# delilah_resto.user_roles
+-
+  id: 1
+  name: "Administrator"
+-
+  id: 2
+  name: "User"
+...
